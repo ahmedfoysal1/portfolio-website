@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:wght@100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lilita+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0 auto;
+    width: 1540px;
+    
+}
+
+
+/* navigation start from here  */
+/* navigation start from here  */
+
+.header{
+    margin: 0 auto;
+    /* background-color: #95e172; */
+    background-color: orange;
+    width: 1540px;
+    height: 600px;
+}
+.navigation{
+    border: 1px solid black;
+    width: 1540px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-family: "Ubuntu", sans-serif;
+    padding-top: 10px;
+    background-color: black;
+    
+    
+}
+
+
+
+.navigation > ul{
+    width: 370px;
+    height: 40px;
+    gap: 30px;
+    display: flex;
+    padding-top: 5px;
+    align-items: center;
+    text-align: center;
+}
+.navigation h1{
+    color: white;
+    font-size: 38px;
+    border-bottom: 6px solid grey;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.navigation > ul > a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.home:hover{
+    /* text-decoration: underline; */
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 84px;
+    background-color: black;
+    color: white;
+    height: 34px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 21px;
+    box-shadow: 0 0 2px black;
+}
+
+.about:hover{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 84px;
+    height:34px;
+    text-align: center;
+    font-size: 21px;
+    box-shadow: 0 0 2px black;
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+}
+
+.portfolio:hover{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 115px;
+    height: 30px;
+    text-align: center;
+    font-size: 21px;
+    box-shadow: 0 0 2px black;
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+}
+
+.blog:hover{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100px;
+    height: 34px;
+    text-align: center;
+    font-size: 21px;
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    box-shadow: 0 0 2px black;
+}
+
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px;
+    margin-top: 110px;
+    width: 100%;
+    height: 350px;
+}
+
+
+.section1-div1{
+    width: 700px;
+    height: 300px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.section1-div1 p, h1, h2{
+    margin-bottom: 5px;
+}
+
+#heythere{
+    font-size: 35px;
+    font-weight: 550;
+    color: black;
+}
+
+
+.section1-div1 p{
+    color: rgb(49, 46, 46);
+    font-weight: 500;
+}
+
+
+.download{
+    width: 230px;
+    height: 58px;
+    margin-top: 20px;
+    padding-bottom: 2px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 0 0 7px rgb(78, 71, 71);
+    cursor: pointer;
+}
+
+
+
+.section1-div1 h1{
+    font-size: 55px;
+    color: white;
+}
+
+.section1-div1 h2{
+    font-size: 50px;
+}
+
+.image1 img{
+    width: 360px;
+    height: 450px;
+    margin-top: -100px;
+    margin-right: 110px;
+}
+.image1-hr{
+    margin-top: -3px;
+    width: 320px;
+    margin-left: 38px;
+    box-shadow: 3px 9px 10px;
+    border: 1px solid white;
+    
+}
+
+.image1 h1{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 50px;
+    margin-left: 83px;
+    color: white;
+}
+
+.span1{
+    color: rgb(144, 125, 125);
+}
+
+.skills{
+    width: 1200px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.skills h3{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+
+.skills-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+.html{
+    width: 400px;
+    height: 370px;
+    margin-top: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 1px;
+
+}
+
+.html:hover{
+    background-color: tomato;
+    box-shadow: 4px 4px 6px;
+    h1{
+        color: black;
+        border-bottom: 3px solid black;
+    }
+    
+
+}
+
+
+.html img{
+    width:  100px;
+    height: 100px;
+    margin-top: 7px;
+}
+.css{
+    width: 400px;
+    height: 370px;
+    margin-top: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 1px;
+}
+
+.css:hover{
+    background-color: aqua;
+    box-shadow: 4px 4px 6px;
+    h1{
+        color: black;
+        border-bottom: 3px solid black;
+    }
+}
+
+.css img{
+    width:  110px;
+    height: 110px;
+}
+.java{
+    width: 400px;
+    height: 370px;
+    margin-top: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 1px;
+}
+
+.java:hover{
+    background-color: orange;
+    box-shadow: 4px 4px 6px;
+    h1{
+        color: black;
+        border-bottom: 3px solid black;
+    }
+}
+
+
+.java h2{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "Ubuntu", sans-serif;
+}
+.java img{
+    width:  110px;
+    height: 110px;
+    margin-top: -20px;
+}
+.react{
+    width: 400px;
+    height: 370px;
+    margin-top: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 1px;
+}
+
+.react:hover{
+    background-color: rgb(105, 169, 169);
+    
+    h1{
+        color: black;
+        border-bottom: 3px solid black;
+    }
+    box-shadow: 4px 4px 6px;
+}
+
+.react img{
+    width:  100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.html-1, .css-1, .java-1, .react-1{
+    width: 290px;
+    height: 230px;
+    margin: 0 auto;
+    
+    
+}
+
+.java-1{
+    margin-top: -9px;
+}
+
+
+.html-1 h1{
+    width: 69px;
+    display: flex;
+    flex-direction: flex-start;
+    margin: 5px 0 0 9px;
+    font-family: "Ubuntu", sans-serif;
+    color: tomato
+}
+.html-1 p{
+    width: 250px;
+    height: 190px;
+    text-align: start;
+    margin-top: 9px;
+    margin-left: 9px;
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+}
+.css-1 h1{
+    width: 47px;
+    display: flex;
+    flex-direction: flex-start;
+    margin: 5px 0 0 9px;
+    font-family: "Ubuntu", sans-serif;
+    color: rgb(46, 46, 194);
+}
+.css-1 p{
+    width: 250px;
+    height: 190px;
+    text-align: start;
+    margin-top: 9px;
+    margin-left: 9px;
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+}
+.java-1 h1{
+    width: 151px;
+    display: flex;
+    flex-direction: flex-start;
+    margin: 5px 0 0 9px;
+    font-family: "Ubuntu", sans-serif;
+    color: orange;
+}
+.java-1 p{
+    width: 250px;
+    height: 190px;
+    text-align: start;
+    margin-top: 9px;
+    margin-left: 9px;
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+}
+.react-1 h1{
+    width: 79px;
+    display: flex;
+    flex-direction: flex-start;
+    margin: 5px 0 0 9px;
+    font-family: "Ubuntu", sans-serif;
+    color: aqua;
+}
+.react-1 p{
+    width: 250px;
+    height: 190px;
+    text-align: start;
+    margin-top: 9px;
+    margin-left: 9px;
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.experience-section{
+    width: 1000px;
+    margin: 0 auto;
+    height: 700px;
+}
+.experience-section h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 49px;
+    font-family: "Ubuntu", sans-serif;
+}
+.experience-container{
+    width: 1000px;
+    height: 600px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+
+}
+
+.experience{
+    width: 490px;
+    height: 190px;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    margin-top: 4px;
+    padding: 0px 0 0 10px;
+}
+
+.experience hr{
+    margin-top: 30px;
+}
+.experience h1{
+    color: tomato;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.experience h3{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+}
+.experience p{
+    padding-top: 5px;
+    font-size: 15px;
+    width: 400px;
+    font-family: "Ubuntu", sans-serif;
+    line-height: 20px;
+}
